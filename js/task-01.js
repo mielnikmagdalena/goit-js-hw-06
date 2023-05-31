@@ -20,4 +20,7 @@ categories.forEach((category) => {
 
   // Liczę liczbę elementów w danej kategorii
   const numberOfElements = elements.length;
+  // Wypisuję informacje o kategorii i liczbie elementów w konsoli
+  console.log("Category: " + header);
+  console.log("Elements: " + numberOfElements);
 });

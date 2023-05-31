@@ -8,7 +8,7 @@ const ingredients = [
 ];
 
 // Pobieram listę ul.ingredients
-const ingredientsList = document.querySelector(".ingredients");
+const ingredientsList = document.querySelector("#ingredients");
 
 // Iteruję przez każdy element tablicy ingredients
 ingredients.forEach((ingredient) => {
